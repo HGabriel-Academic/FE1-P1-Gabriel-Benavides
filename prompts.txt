@@ -41,3 +41,28 @@ aplicar estilos CSS más trabajados,(Establece tipografias accesibles) Para foco
 •
 mejorar la distribución del contenido."
 
+----
+tercer prompt: correción del contexto del evento:
+        "cambia el contexto del evento por lo siguiente:
+Una organización(INACAP) necesita difundir un evento tecnológico(Semana de exposicion tecnologica) abierto a la comunidad. Este evento busca atraer estudiantes, profesionales y público general interesado en tecnología. En este evento se mostraran los proyectos ganadores de un concurso."
+
+cuarto prompt: incorporación de contenido
+        "3. Incorporación de contenido
+Se requiere entregar más información para motivar la participación.
+
+Debes agregar nuevas secciones, por ejemplo:
+
+•
+actividades del evento(exposiciones en stands, charlas informativas en el auditorio,stands de comida,
+
+•
+beneficios de asistir,
+
+•
+invitados o expositores,(Mineras del norte de chile, como ejmplo BHP,Escondidas,Centinela,etc.) (nombres de expositores ficticios)
+
+•
+preguntas frecuentes,
+
+•
+inscripción o contacto."

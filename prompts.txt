@@ -81,4 +81,17 @@ quinto prompt: adapatacion a dispositivos moviles
         •
         evitar problemas de visualización.(styles.css con grid/flex para el layout, tipografías accesibles 
         (≥16px), y variables de color con contraste AA.”)
-        
+
+sexto prompt: mejora final obligatoria 
+        Mejora final obligatoria
+        Debes incorporar una sección de actividades destacadas utilizando tarjetas (cards).
+        Cada tarjeta debe incluir:
+
+        •
+        nombre de la actividad(Exposicion sobre tecnologia en la mineria; Charla sobre drones en el campo minero, Muestra de proyectos de alumnos de ultimo año),
+
+        •
+        breve descripción,
+
+        •
+        algún elemento visual (ícono o imagen).

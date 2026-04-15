@@ -200,6 +200,29 @@ main {
     line-height: 1.7;
 }
 
+.activity-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: start;
+}
+
+.activity-card .icon {
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+@media (max-width: 760px) {
+    .activity-card {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .activity-card .icon {
+        margin: 0 auto 0.75rem;
+    }
+}
+
 .benefits-list,
 .faq-list {
     display: grid;

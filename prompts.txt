@@ -1,0 +1,27 @@
+primer prompt utilizado para dar contexto a copilot y generar
+la estructura inicial de la web:
+        "Una organización necesita difundir un evento tecnológico abierto a la comunidad. Este evento busca atraer estudiantes, profesionales y público general interesado en tecnología. En este evento se mostraran los proyectos ganadores de un concurso.
+
+Tu tarea consiste en construir un sitio web que permita comunicar esta actividad de manera clara, atractiva y organizada.
+
+El sitio no debe desarrollarse de una sola vez, sino que debe evolucionar en distintas etapas, incorporando mejoras progresivas.
+
+
+
+1. Versión inicial
+Construye una primera versión del sitio que incluya:
+
+•
+nombre del evento(Concierto Toe chile)
+
+•
+descripción general(Pagina para el evento del esperado regreso de la banda TOE a chile)
+
+•
+una estructura básica (secciones),landing semantica(logo +nav),hero,<footer> con datos del evento(14 de spetiembre en teatro caupolican), incluye un h1 unico y jerarquia correcta de encabezados
+
+•
+una zona destacada (encabezado o presentación principal)."
+
+
+-----

@@ -25,3 +25,19 @@ una zona destacada (encabezado o presentación principal)."
 
 
 -----
+
+Segundo prompt utilizado para cambiar el estilo css,agregando colores, tipografia y tamaño, junto con mejorar la distribucion del contenido.Y como adicion a este la modificacion del codigo en el archivo main.html para adecuarse al nuevo estilo.
+        "2. Mejora visual
+El cliente considera que el sitio es funcional, pero necesita una mejor presentación.
+
+Debes:
+
+•
+mejorar el diseño visual(establece una paleta de maximo 4 colores que sean terracota y salvia) con alto contraste(AA) para el fondo,texto y botones.
+
+•
+aplicar estilos CSS más trabajados,(Establece tipografias accesibles) Para foco y UI, WCAG 2.1/2.2 pide ≥ 3:1 para componentes y foco visible
+
+•
+mejorar la distribución del contenido."
+

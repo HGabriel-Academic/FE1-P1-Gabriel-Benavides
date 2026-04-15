@@ -1,68 +1,84 @@
 primer prompt utilizado para dar contexto a copilot y generar
-la estructura inicial de la web:
-        "Una organización necesita difundir un evento tecnológico abierto a la comunidad. Este evento busca atraer estudiantes, profesionales y público general interesado en tecnología. En este evento se mostraran los proyectos ganadores de un concurso.
+        la estructura inicial de la web:
+                "Una organización necesita difundir un evento tecnológico abierto a la comunidad. Este evento busca atraer estudiantes, profesionales y público general interesado en tecnología. En este evento se mostraran los proyectos ganadores de un concurso.
 
-Tu tarea consiste en construir un sitio web que permita comunicar esta actividad de manera clara, atractiva y organizada.
+                Tu tarea consiste en construir un sitio web que permita comunicar esta actividad de manera clara, atractiva y organizada.
 
-El sitio no debe desarrollarse de una sola vez, sino que debe evolucionar en distintas etapas, incorporando mejoras progresivas.
+                El sitio no debe desarrollarse de una sola vez, sino que debe evolucionar en distintas etapas, incorporando mejoras progresivas.
 
 
 
-1. Versión inicial
-Construye una primera versión del sitio que incluya:
+                1. Versión inicial
+                Construye una primera versión del sitio que incluya:
 
-•
-nombre del evento(Concierto Toe chile)
+                •
+                nombre del evento(Concierto Toe chile)
 
-•
-descripción general(Pagina para el evento del esperado regreso de la banda TOE a chile)
+                •
+                descripción general(Pagina para el evento del esperado regreso de la banda TOE a chile)
 
-•
-una estructura básica (secciones),landing semantica(logo +nav),hero,<footer> con datos del evento(14 de spetiembre en teatro caupolican), incluye un h1 unico y jerarquia correcta de encabezados
+                •
+                una estructura básica (secciones),landing semantica(logo +nav),hero,<footer> con datos del evento(14 de spetiembre en teatro caupolican), incluye un h1 unico y jerarquia correcta de encabezados
 
-•
-una zona destacada (encabezado o presentación principal)."
-
+                •
+                una zona destacada (encabezado o presentación principal)."
 
 -----
 
 Segundo prompt utilizado para cambiar el estilo css,agregando colores, tipografia y tamaño, junto con mejorar la distribucion del contenido.Y como adicion a este la modificacion del codigo en el archivo main.html para adecuarse al nuevo estilo.
         "2. Mejora visual
-El cliente considera que el sitio es funcional, pero necesita una mejor presentación.
+        El cliente considera que el sitio es funcional, pero necesita una mejor presentación.
 
-Debes:
+        Debes:
 
-•
-mejorar el diseño visual(establece una paleta de maximo 4 colores que sean terracota y salvia) con alto contraste(AA) para el fondo,texto y botones.
+        •
+        mejorar el diseño visual(establece una paleta de maximo 4 colores que sean terracota y salvia) con alto contraste(AA) para el fondo,texto y botones.
 
-•
-aplicar estilos CSS más trabajados,(Establece tipografias accesibles) Para foco y UI, WCAG 2.1/2.2 pide ≥ 3:1 para componentes y foco visible
+        •
+        aplicar estilos CSS más trabajados,(Establece tipografias accesibles) Para foco y UI, WCAG 2.1/2.2 pide ≥ 3:1 para componentes y foco visible
 
-•
-mejorar la distribución del contenido."
+        •
+        mejorar la distribución del contenido."
 
 ----
 tercer prompt: correción del contexto del evento:
         "cambia el contexto del evento por lo siguiente:
-Una organización(INACAP) necesita difundir un evento tecnológico(Semana de exposicion tecnologica) abierto a la comunidad. Este evento busca atraer estudiantes, profesionales y público general interesado en tecnología. En este evento se mostraran los proyectos ganadores de un concurso."
+        Una organización(INACAP) necesita difundir un evento tecnológico(Semana de exposicion tecnologica) abierto a la comunidad. Este evento busca atraer estudiantes, profesionales y público general interesado en tecnología. En este evento se mostraran los proyectos ganadores de un concurso."
 
 cuarto prompt: incorporación de contenido
         "3. Incorporación de contenido
-Se requiere entregar más información para motivar la participación.
+        Se requiere entregar más información para motivar la participación.
 
-Debes agregar nuevas secciones, por ejemplo:
+        Debes agregar nuevas secciones, por ejemplo:
 
-•
-actividades del evento(exposiciones en stands, charlas informativas en el auditorio,stands de comida,
+        •
+        actividades del evento(exposiciones en stands, charlas informativas en el auditorio,stands de comida,
 
-•
-beneficios de asistir,
+        •
+        beneficios de asistir,
 
-•
-invitados o expositores,(Mineras del norte de chile, como ejmplo BHP,Escondidas,Centinela,etc.) (nombres de expositores ficticios)
+        •
+        invitados o expositores,(Mineras del norte de chile, como ejmplo BHP,Escondidas,Centinela,etc.) (nombres de expositores ficticios)
 
-•
-preguntas frecuentes,
+        •
+        preguntas frecuentes,
 
-•
-inscripción o contacto."
+        •
+        inscripción o contacto."
+
+quinto prompt: adapatacion a dispositivos moviles
+        4. Adaptación a dispositivos móviles
+        El sitio será revisado principalmente desde celulares.
+
+        Debes:
+
+        •
+        adaptar el diseño a pantallas pequeñas(agrega animaciones fluidas y ligeras para los botones y el reescalado)
+
+        •
+        asegurar que el contenido sea legible(Requisitos A11y)(Validar contraste con WebAIM y ajustar variables de color hasta que pase AA/AAA.)
+
+        •
+        evitar problemas de visualización.(styles.css con grid/flex para el layout, tipografías accesibles 
+        (≥16px), y variables de color con contraste AA.”)
+        
